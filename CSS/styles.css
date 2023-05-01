@@ -1,0 +1,184 @@
+body {
+   background: rgb(0,212,255);
+   background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(141,0,168,1) 100%);
+
+}
+
+
+#Features{
+   background-image: url("https://stat.overdrive.in/wp-content/odgallery/2018/06/43180__ANI8076.JPG");
+   padding: 100px 200px;
+   
+ background-color: #cccccc;
+ background-position: center;
+ background-size: cover;
+
+}
+@keyframes zoom-in  {
+   from {
+     margin-top: 100%;
+   
+   }
+ 
+   to {
+     margin-top: 0%;
+     
+   }
+ }
+
+.text1 {
+   animation: forwards;
+   animation-name: zoom-in ;
+   animation-duration: 2s;
+   font-size: 90px; 
+   text-align: center;
+   padding-top: 100px;
+   padding-bottom: 100px;
+ 
+color: white;
+font-family: 'Montserrat', sans-serif;
+position: static;
+text-shadow:2px 5px black;
+
+}
+
+.navbar{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-style: unset;
+   font-size: 25px;
+   text-align: center;
+}
+.navbar-brand{
+   font-weight: bolder;
+  
+}
+.navbar-nav{
+   margin-left: 350px;
+}
+
+@media screen and (max-width: 1400px) {
+   .navbar-nav{
+      margin-left: 250px;
+   }
+   .text1{
+      font-size: 70px;
+   }
+   
+   
+ }
+ @media screen and (max-width: 1199px) {
+   .navbar-nav{
+      margin-left: 100px;
+   }
+   .text1{
+      font-size: 60px;
+   }
+   .app{
+      font-size: 40px;
+   }
+
+   
+ }
+ @media screen and (max-width: 991px) {
+   .navbar-nav{
+      margin-left: 0px;
+   }
+   .text1{
+      font-size: 35px;
+   }
+ }
+
+.d-flex{
+   padding-left: 10px;
+}
+ul{
+   text-align: center;
+}
+.first{
+   padding:100px 100px;
+   
+   
+}
+.second{
+   padding:100px 100px;
+   
+}
+
+p,.app{
+   text-align: center;
+   color:rgb(255, 255, 255);
+   font-weight: 900;
+   font-size: 40px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#application{
+   padding: 150px;
+   background: rgb(19,0,193);
+   background: linear-gradient(90deg, rgba(19,0,193,1) 0%, rgba(44,126,255,1) 100%); 
+    /*background: rgb(184,246,181);
+background: linear-gradient(90deg, rgba(184,246,181,1) 0%, rgba(245,255,145,1) 100%); 
+*/}
+.app{
+   color:rgb(255, 255, 255);;
+   font-weight: 900;
+   font-size: 60px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: left;
+   margin: 10px 0px;
+   
+}
+.img1{
+   width: 300px;
+  margin-left: 100px;
+    
+}
+.logo {
+   margin: 2% 1% 5% 1%;
+}
+#carousel{
+   background-color: black; 
+   
+}
+.carousel-img{
+      width:1000px;
+   
+   }
+
+/* types of insurance
+*/
+#typesofinsurance
+{
+   background: rgb(19,0,193);
+background: linear-gradient(90deg, rgba(19,0,193,1) 0%, rgba(44,126,255,1) 100%); 
+padding:50px 0px 100px 0px;
+}
+.insuranceheading{
+    font-size:60px;
+    text-align:center;
+    padding:40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #FF7803;
+background: -webkit-linear-gradient(#fff0f0, #ffc6f8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+    
+    
+
+}
+
+.types{
+    padding-bottom:20px;
+    font-size:35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+   
+    padding-top:20px;
+    color: #fff202;
+}
+.textinsurance{
+    font-size:20px;
+    color:#fafafa;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+  
+}
